@@ -47,6 +47,10 @@ public class Loops {
         }
 
     }
+//    mynumber1 = 0;
+//    while (myNumber < myArray.length) {
+//        System.out.println(myArray[myNumber++]);
+//    }
 
     public static void loopThroughArray(){
         int[] nums = {23, 7, 13, 4, 15, 67, 42, 54, 45, 81 };
