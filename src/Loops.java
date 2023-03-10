@@ -6,9 +6,12 @@ public class Loops {
             System.out.println(count);
             count = count +1;
         }
-
         System.out.println("outside the loop");
+
         System.out.println("Final count:" + count);
+        
+        }
+
         // same code
        // count = count + 1;
         //count += 1;
@@ -22,18 +25,18 @@ public class Loops {
 
         // variable = variable <operation> <equation>
 
-        count = 0;
-        while( count < 2) {
-            System.out.println("\n******** Array Loop " + (count+1) +"********");
-            loopThroughArray();
-            count++;
-        }
-        loopThroughArray();
-        String[] cookies = {"Choco chip",
-                            "Oatmeal",
-                            "Suger"};
-        loopStrings(cookies);
-    }
+//        count = 0;
+//        while( count < 2) {
+//            System.out.println("\n******** Array Loop " + (count+1) +"********");
+//            loopThroughArray();
+//            count++;
+
+//        loopThroughArray();
+//        String[] cookies = {"Choco chip",
+//                            "Oatmeal",
+//                            "Suger"};
+//        loopStrings(cookies);
+//    }
 
     public static void loopStrings(String[] cArray){
         int i = 0;
