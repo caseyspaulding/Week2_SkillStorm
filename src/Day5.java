@@ -23,6 +23,7 @@ public class Day5 {
         System.out.println();
 
         // for loop
+        // for (;;) is an infinite loop
         System.out.println("******** For loop *********");
         for (int i = 0; i < 3; i++){
             System.out.println(i);
@@ -42,9 +43,13 @@ public class Day5 {
         System.out.println();
 
         Scanner in = new Scanner(System.in);
-        carPrompt(in);
-        shorterCarPrompt(in);
+        //carPrompt(in);
+        //shorterCarPrompt(in);
+        icecream();
     }
+
+
+
     public static void shorterCarPrompt(Scanner input){
         String car = "";
 
@@ -77,6 +82,28 @@ public class Day5 {
         }
 
         System.out.println("Great Choice!");
+
     }
+
+    public static void icecream() {
+        String[] flavors = {"Vanilla",
+                "Chocolate",
+                "Strawberry",
+                "Mint Chocolate"};
+        System.out.println("******** Ice Cream *********");
+        for(int i = 0; i < flavors.length; i++) {
+            System.out.println(flavors[i]);
+        }
+
+
+    }
+
+    String[] toppings = {"M&Ms",
+                          "Oreos",
+                          "Sprinkles",
+                        "Whip Cream",
+                         "Caramel"};
+
+
 
 }
