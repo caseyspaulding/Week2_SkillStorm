@@ -45,7 +45,7 @@ public class Day5 {
         Scanner in = new Scanner(System.in);
         //carPrompt(in);
         //shorterCarPrompt(in);
-        icecream();
+        foreachIceCream();
     }
 
 
@@ -84,7 +84,26 @@ public class Day5 {
         System.out.println("Great Choice!");
 
     }
+    public static void foreachIceCream(){
+        String[] flavors = {"Vanilla",
+                "Chocolate",
+                "Strawberry",
+                "Mint Chocolate"};
+        String[] toppings = {"M&Ms",
+                "Oreos",
+                "Sprinkles",
+                "Whip Cream",
+                "Caramel"};
 
+        // no indexes, executes once for each element in the array
+        for (String flavor : flavors) {
+            for(String topping : toppings){
+                String bowl = flavor + " and " + topping;
+                System.out.println(bowl);
+            }
+        }
+
+    }
     public static void icecream() {
         String[] flavors = {"Vanilla",
                 "Chocolate",

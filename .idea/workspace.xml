@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de68538a-891e-4761-838c-1b755c2d341c" name="Changes" comment="Day 5 more loops">
+      <change afterPath="$PROJECT_DIR$/src/MaxValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5.java" afterDir="false" />
     </list>
@@ -67,7 +68,7 @@
       <workItem from="1678400853522" duration="853000" />
       <workItem from="1678401722903" duration="865000" />
       <workItem from="1678402607443" duration="183000" />
-      <workItem from="1678406927785" duration="9139000" />
+      <workItem from="1678406927785" duration="11194000" />
     </task>
     <task id="LOCAL-00001" summary="day 3 week 2">
       <created>1678375273583</created>
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678467723600</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 5 more loops">
+      <created>1678474992903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678474992903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
